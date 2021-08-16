@@ -8,19 +8,11 @@ import { ListadoClientesComponent } from './listado-clientes/listado-clientes.co
 
 
 @NgModule({
-  declarations: [
-    AltaClienteComponent,
-    ListadoClientesComponent
-  ],
+  declarations: [AltaClienteComponent,ListadoClientesComponent],
   imports: [
     CommonModule,
     FormsModule
-  ], providers :[
-    ClientesService
-  ],
-  exports:[
-    AltaClienteComponent,
-    ListadoClientesComponent
-  ]
+  ], providers :[ClientesService],
+  exports:[AltaClienteComponent,ListadoClientesComponent]
 })
 export class ClientesModule { }
